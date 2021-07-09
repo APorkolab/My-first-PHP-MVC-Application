@@ -1,0 +1,79 @@
+head {
+    padding: 20px;
+    background-color: #190e5d;
+    text-align: center;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #190e5d;
+    color: #c0c0f6;
+    text-space: 2px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+h1 {
+    color: #40efde;
+    font-size: 45px;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: right;
+}
+
+table {
+    border: 1px solid #40efde;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+    white-space: nowrap;
+}
+
+tr {
+    padding: 10px;
+    border: solid 1px;
+    border-collapse: collapse;
+}
+
+td {
+    border: solid 1px;
+    border-left: 1px;
+    border-right: 1px;
+}
+
+.tablecenter {
+    margin-left: auto;
+    margin-right: auto;
+}
