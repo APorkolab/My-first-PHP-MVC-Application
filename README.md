@@ -31,3 +31,9 @@ Let me know if you have any questions.
 
 Source:
 E-mail from the HR manager of the company
+
+#Content of .htaccess
+
+    Options +FollowSymLinks
+    RewriteEngine on
+    RewriteRule ^([a-zA-Z]*)/?([a-zA-Z]*)?/?([a-zA-Z0-9]*)?/?$ index.php?controller=$1&action=$2&id=$3 [NC,L]
