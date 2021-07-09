@@ -32,7 +32,7 @@ Let me know if you have any questions.
 Source:
 E-mail from the HR manager of the company
 
-#Content of .htaccess
+# Content of .htaccess
 
     Options +FollowSymLinks
     RewriteEngine on
